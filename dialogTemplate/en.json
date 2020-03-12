@@ -1,0 +1,7 @@
+{
+    "skill": "Reminder",
+    "icon": "time",
+    "description": "Ask alice to remind you stuff at a given time",
+    "slotTypes": [],
+    "intents": []
+}
