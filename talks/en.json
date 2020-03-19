@@ -1,1 +1,12 @@
-{}
+{
+	"aboutWhat": {
+		"default": [
+			"Sure, what shall I remind you?",
+			"Of course I can! What is the reminder about?",
+			"What do you want me to remind you?"
+		],
+		"short": [
+			"What shall I remind you?"
+		]
+	}
+}

@@ -1,7 +1,46 @@
 {
-    "skill": "Reminder",
-    "icon": "time",
-    "description": "Ask alice to remind you stuff at a given time",
-    "slotTypes": [],
-    "intents": []
+	"skill": "Reminder",
+	"icon": "time",
+	"description": "Ask alice to remind you stuff at a given time",
+	"slotTypes": [
+	],
+	"intents": [
+		{
+			"name": "AddReminder",
+			"description": "User adds a new reminder",
+			"enabledByDefault": true,
+			"utterances": [
+				"can you please add a new reminder",
+				"can you add a new reminder",
+				"please add a new reminder",
+				"add a reminder",
+				"can you remind me of something",
+				"add a reminder please",
+				"can you please add a reminder",
+				"please add a reminder",
+				"new reminder please",
+				"set a new reminder",
+				"please set a new reminder",
+				"i need you to remind me about something",
+				"could you please add a reminder"
+			]
+		},
+		{
+			"name": "RandomAnswer",
+			"description": "User adds a new user",
+			"enabledByDefault": false,
+			"utterances": [
+				""
+			],
+			"slots": [
+				{
+					"name": "Less",
+					"description": null,
+					"required": false,
+					"type": "Less",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
 }
